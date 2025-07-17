@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorgie IWNL - Street Wear Collection</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2>IWNL PARADISE</h2>
+            <p>Streetwear Collection</p>
+        </div>
+        <ul class="sidebar-nav">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <div class="brand-logo">
+                <h3>JORGIE</h3>
+                <span>IWNL</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Content -->
+   <main class="main-content">
+        <!-- Top Navigation Bar -->
+        <nav class="top-nav">
+            <div class="nav-container">
+                <div class="nav-brand mobile-only">JORGIE IWNL</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            <div class="profile">
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="register.html">Register</a></li>
+            </div>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Logo Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="assets/Jorgiey2k.png" alt="Jorgie IWNL Logo">
+                </div>
+                <h1>STREET WEAR</h1>
+                <h2>COLLECTION</h2>
+                <p>Born from the streets and stitched with soul. Authentic style that speaks your language.</p>
+                <a href="#portfolio" class="cta-button">EXPLORE COLLECTION</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-mouse"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>ABOUT US</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="highlight">Born from the streets and stitched with soul, <strong>Jorgie IWNL</strong> is a streetwear and classic clothing label built on passion, purpose, and accessibility.</p>
+
+                        <p>Founded with the belief that style should never come at the cost of authenticity or affordability, our pieces blend timeless silhouettes with modern edge—all crafted with heart.</p>
+
+                        <p>We design for the dreamers, the doers, and the everyday rebels—those who move with intention and wear their story. Every thread reflects our commitment to quality, culture, and community, while keeping prices low so that fashion stays inclusive, not exclusive.</p>
+
+                        <div class="values">
+                            <div class="value-item">
+                                <h3>100%</h3>
+                                <span>AUTHENTIC</span>
+                            </div>
+                            <div class="value-item">
+                                <h3>PREMIUM</h3>
+                                <span>QUALITY</span>
+                            </div>
+                            <div class="value-item">
+                                <h3>FAIR</h3>
+                                <span>PRICING</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500&h=500&fit=crop&crop=center" alt="Streetwear Collection">
+                        <div class="image-badge">IWNL</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="portfolio" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>EXPLORE</h2>
+                    <p>PRODUCTS</p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="products-grid">
+                    <!-- T-Shirts -->
+                    <div class="product-card" data-modal="modal1">
+                        <div class="product-image">
+                            <img src="assets/T-shirt.PNG" alt="Essential Tee">
+                            <div class="product-overlay">
+                                <div class="product-category">T-SHIRTS</div>
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Essential Tee</h3>
+                            <p>Premium cotton t-shirt with classic fit. Perfect for everyday wear.</p>
+                            <div class="product-price">
+                                <span class="price">1,350 PHP</span>
+                                <button class="btn-details">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hoodies -->
+                    <div class="product-card" data-modal="modal2">
+                        <div class="product-image">
+                            <img src="assets/Hoodie.PNG" alt="Street Hoodie">
+                            <div class="product-overlay">
+                                <div class="product-category">HOODIES</div>
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Street Hoodie</h3>
+                            <p>Heavyweight hoodie with premium fleece lining for ultimate comfort.</p>
+                            <div class="product-price">
+                                <span class="price">PHP 2,490</span>
+                                <button class="btn-details">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Long Sleeves -->
+                    <div class="product-card" data-modal="modal3">
+                        <div class="product-image">
+                            <img src="assets/Long-sleeve.jpg" alt="Long Sleeve">
+                            <div class="product-overlay">
+                                <div class="product-category">LONG SLEEVES</div>
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Long Sleeve</h3>
+                            <p>Versatile long sleeve perfect for layering with modern cut.</p>
+                            <div class="product-price">
+                                <span class="price">PHP 1,690</span>
+                                <button class="btn-details">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shorts -->
+                    <div class="product-card" data-modal="modal4">
+                        <div class="product-image">
+                            <img src="assets/shorts.PNG" alt="Sweat shorts">
+                            <div class="product-overlay">
+                                <div class="product-category">SHORTS</div>
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Sweat Shorts</h3>
+                            <p>Functional Sweat shorts with multiple pockets for urban adventures.</p>
+                            <div class="product-price">
+                                <span class="price">PHP 1,290</span>
+                                <button class="btn-details">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pants -->
+                    <div class="product-card" data-modal="modal5">
+                        <div class="product-image">
+                            <img src="assets/Pants.png" alt="Streetwear Pants">
+                            <div class="product-overlay">
+                                <div class="product-category">PANTS</div>
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Streetwear Pants</h3>
+                            <p>Comfortable streetwear pants with modern fit for urban wardrobe.</p>
+                            <div class="product-price">
+                                <span class="price">PHP 2,490</span>
+                                <button class="btn-details">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hot Deals -->
+                    <div class="product-card" data-modal="modal6">
+                        <div class="product-image">
+                            <img src="assets/Hotdeals.PNG" alt="Limited Edition">
+                            <div class="product-overlay">
+                                <div class="product-category">HOT DEALS</div>
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Limited Edition</h3>
+                            <p>Exclusive limited edition pieces at special prices.</p>
+                            <div class="product-price">
+                                <span class="price">PHP 2,590</span>
+                                <button class="btn-details">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <!-- Brand Column -->
+                    <div class="footer-column">
+                        <h3>JORGIE IWNL</h3>
+                        <p>Authentic streetwear born from the streets and stitched with soul. Quality fashion that speaks your language.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Products</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="footer-column">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Hoodies</a></li>
+                            <li><a href="#">Pants</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@jorgieiwnl.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Street Fashion District</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Jorgie IWNL. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Returns</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Modal Template -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <div class="modal-category" id="modalCategory"></div>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <ul class="modal-features" id="modalFeatures"></ul>
+                    <div class="modal-footer">
+                        <span class="modal-price" id="modalPrice"></span>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

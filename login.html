@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorgie IWNL Login</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <div class="main-content">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/Register Form logo.png" alt="Logo" class="nav-logo">
+            </a>
+        </div>
+
+        <form action="https://formsubmit.co/202412029@fit.edu.ph" method="POST">
+            <h2>Log In</h2>
+
+            <div class="inputBox">
+                <input type="username" name="username" required>
+                <label>Username / Email</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="password" name="password" id="loginPassword" required>
+                <label>Password</label>
+                <button type="button" onclick="togglePassword('loginPassword', this)">Show</button>
+            </div>
+
+            <div class="inputBox">
+                <input type="submit" value="Log In">
+            </div>
+
+            <p>Don’t have an account yet?
+                <a href="register.html">Register</a>
+            </p>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorgie IWNL Register</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <div class="main-content">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/Register Form logo.png" alt="Logo" class="nav-logo">
+            </a>
+        </div>
+
+        <!-- [ FORM ] -->
+        <form action="https://formsubmit.co/202412029@fit.edu.ph" method="POST">
+            <h2>New Account</h2>
+
+            <div class="inputBox">
+                <input type="text" name="username" required>
+                <label>Username</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" name="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="password" name="password" id="createPassword" required>
+                <label>Create Password</label>
+                <button type="button" onclick="togglePassword('createPassword', this)">Show</button>
+            </div>
+
+            <div class="inputBox">
+                <input type="password" name="confirmPassword" id="confirmPassword" required>
+                <label>Confirm Password</label>
+                <button type="button" onclick="togglePassword('confirmPassword', this)">Show</button>
+            </div>
+
+            <div class="inputBox">
+                <input type="submit" value="Create">
+            </div>
+
+            <p>Have an Account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
